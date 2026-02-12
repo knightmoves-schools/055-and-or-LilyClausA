@@ -5,20 +5,15 @@ function taxable(state, taxExempt){
     }
 }
 
+function isVehicle(hasWheels, canFly, canSwim){
+    if (hasWheels == false && canFly == false && canSwim == false){
+        return;
+    } else {
+        return "is vehicle";
+    }
+}
 
 
-//should create a function named taxable that takes two parameters 
-// state and taxExempt and returns the string "is taxable" if the 
-// state is IA and taxExempt is false
-
-
-
-
-//should not return the string "is taxable" if the state is IA and 
-// taxExempt is true
-
-//should not return the string "is taxable" if the state is FL and 
-// taxExempt is false
 
 //should create a function named isVehicle that takes three parameters 
 // hasWheels, canFly, canSwim and returns the string "is vehicle" if 
