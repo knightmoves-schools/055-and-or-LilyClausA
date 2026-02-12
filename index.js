@@ -1,9 +1,11 @@
 
-function taxable(state == state && taxExempt == taxExempt){
+function taxable(state, taxExempt){
     if (state == IA && taxExempt == false){
         return "is taxable";
     }
 }
+
+
 
 //should create a function named taxable that takes two parameters 
 // state and taxExempt and returns the string "is taxable" if the 
